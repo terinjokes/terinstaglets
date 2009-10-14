@@ -1,0 +1,21 @@
+Terin's Taglets - (Beta) Version: 0.1
+======================================
+Some taglets created to aid in the creation of documentation in CIS3020 projects.
+======================================
+These taglets are extensions to the builtin Javadoc set. For more information about
+Javadoc, please visit:
+
+             http://java.sun.com/j2se/javadoc/writingdoccomments/
+
+======================================
+Included taglets in this release are
+
+*AssumptionsTaglet.java		(@assumption)
+*ConstraintsTaglet.java		(@constraints)
+*LicenseTaglet.java		(@license)
+*RelationshipsTaglet.java	(@relationships)
+======================================
+Changelog
+
+*v0.1
+   -First public release.

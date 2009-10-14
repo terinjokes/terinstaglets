@@ -1,0 +1,30 @@
+Terin's Taglets - (Beta) Version: 0.1
+======================================
+Some taglets created to aid in the creation of documentation in CIS3020 projects.
+======================================
+HOW-TO INSTALL
+
+1) Build the taglet classes.
+
+    javac -classpath "C:\Program Files\Java\jdk1.6.0_16\lib\tools.jar" *.java
+
+2) Copy the compiled class files to your tagletpath directory. I use
+   "C:\Program Files\Java\jdk1.6.0_16\taglets\" but you are free to use any directory
+
+3) When generating javadocs, be sure to include the taglets and the tagletpath on the
+   commandline. For example:
+
+            javadoc -taglet AssumptionsTaglet -taglet ConstaintsTaglet \
+                    -taglet LicenseTaglet -taglet RelationshipsTaglet \
+                    -tagletpath "C:\Program Files\Java\jdk1.6.0_16\taglets\" \
+                     classname.java
+
+   where the "\" at the end of the line means the command continues to the next line, and
+   should be typed into the commandline as one continuous line.
+
+======================================
+MORE ABOUT JAVADOC
+
+If you want to know more about Javadoc, and how it should be used, please visit
+
+              http://java.sun.com/j2se/javadoc/writingdoccomments/
